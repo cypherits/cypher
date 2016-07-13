@@ -8,9 +8,18 @@
  */
 
 /**
- * import core functions, loader, config and uri
+ * Loading Config Class
  */
 
+require_once BASEPATH."core/config.php";
+/**
+ * Loading configuration files
+ */
+CY_Config::load_config_files();
+/**
+ * Loading common functions
+ */
 require_once BASEPATH."core/functions.php";
-import_config();
-echo $config["base_url"];
+/**
+ * Loading URI Class
+ */
