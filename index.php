@@ -8,16 +8,16 @@
  */
 
 /**
- * [$system_dir This defines the path to core system folder]
+ * [system_dir This defines the path to core system folder]
  * @var string
  */
-$system_dir = "system/";
+const system_dir = "system/";
 
 /**
- * [$application_dir This defines the path to application folder]
+ * [application_dir This defines the path to application folder]
  * @var string
  */
-$application_dir = "application/";
+const application_dir = "application/";
 
 /**
  * Define a constent of environment to modify the system error reporting.
@@ -46,13 +46,13 @@ switch(ENVIRONMENT){
 /**
  * Defining constants of systempath
  */
-if(is_dir($system_dir)){
-	define("BASEPATH", realpath($system_dir)."/");
+if(is_dir(system_dir)){
+	define("BASEPATH", realpath(system_dir));
 }else{
 	die("System Path Not Found. Please check in index.php");
 }
-if(is_dir($application_dir)){
-	define("APPPATH", realpath($application_dir)."/");
+if(is_dir(application_dir)){
+	define("APPPATH", realpath(application_dir));
 }else{
 	die("Application Path Not Found. Please check in index.php");
 }
