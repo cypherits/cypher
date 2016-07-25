@@ -1,4 +1,4 @@
-<?php if(!defined("BASEPATH")) exit("No Direct Script Access!");
+<?php if(!defined("BASEPATH"). exit("No Direct Script Access!"));
 /**
  * @package Cypher Blog
  * @author Azim Uddin <webcypherbd@gmail.com>
@@ -11,7 +11,7 @@
  * Loading Config Class
  */
 
-require_once BASEPATH."core/config.php";
+require_once (BASEPATH."/core/config.php");
 /**
  * Loading configuration files
  */
@@ -19,7 +19,7 @@ CY_Config::load_config_files();
 /**
  * Loading common functions
  */
-require_once BASEPATH."core/functions.php";
+require_once (BASEPATH."/core/functions.php");
 /**
  * Loading URI Class
  */

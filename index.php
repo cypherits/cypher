@@ -59,4 +59,4 @@ if(is_dir(application_dir)){
 /**
  * Load Bootstrap File
  */
-require_once BASEPATH."core/bootstrap.php";
+require_once (BASEPATH."/core/bootstrap.php");
