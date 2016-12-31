@@ -17,4 +17,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail a
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+The Cypher PHP framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
